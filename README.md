@@ -33,6 +33,11 @@ Steps to reproduce for JupyterLab Version 4.0.4:
 
 python3.11 -m venv .venv && source .venv/bin/activate
 pip install jupyterlab
-pip install ipywidget
+pip install ipywidgets
+jupyter lab
 
-
+Steps to reproduce for Jupyter Notebook Version: 7.0.2 :
+python3.11 -m venv .venv && source .venv/bin/activate
+pip install notebook
+pip install ipywidgets
+jupyter notebook
